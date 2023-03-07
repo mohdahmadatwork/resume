@@ -143,9 +143,17 @@
     color: var(--text-color);
     text-decoration: none;
 }
-
+.contact-icon-span{
+    display: inline-block;
+}
 @media(max-width:768px){
     .intro{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .contact-icon-span{
         display: none;
     }
 }
