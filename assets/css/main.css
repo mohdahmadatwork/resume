@@ -132,15 +132,16 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.intro ul{
+.intro ul,#contact ul{
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
-.intro a{
+.intro a,#contact a{
     color: var(--text-color);
+    text-decoration: none;
 }
 
 @media(max-width:768px){
